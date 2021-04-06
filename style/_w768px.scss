@@ -26,4 +26,45 @@
         }
     }
 
+    .worked {
+        padding-top: 160px;
+        padding-bottom: 80px;
+
+        &__arrow {
+            margin-top: 76px;
+        }
+
+        &__arrow-ico {
+            width: 57px;
+            height: 29px;
+        }
+
+        &__text {
+            margin-top: 124px;
+        }
+    }
+
+    .bluetooth {
+        padding-top: 80px;
+
+        &__ico {
+            width: 21.45px;
+            height: 40px;
+        }
+
+        &__heading {
+            margin-top: 39px;
+        }
+
+        &__text {
+            margin-top: 30px;
+
+            &_big {
+                margin-top: 70px;
+                font-size: 150px;
+                line-height: 176px;
+            }
+        }
+    }
+
 }
