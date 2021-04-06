@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+p {
+  margin-bottom: 0 !important;
+}
+
 .center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -92,6 +96,7 @@
           align-items: center;
   padding-top: 42px;
   padding-bottom: 18px;
+  background: #EDEDED;
 }
 
 .bluetooth__img {
@@ -117,6 +122,105 @@
   height: 34px;
 }
 
+.setting {
+  padding-top: 70px;
+  padding-bottom: 63px;
+}
+
+.setting__top {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.setting__text {
+  margin-top: 20px;
+}
+
+.setting__box-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+  margin-top: 30px;
+}
+
+.setting__item {
+  padding-bottom: 8.5px;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  outline: 1px solid black;
+}
+
+.setting__item-heading {
+  margin-top: 9.5px;
+}
+
+.setting__item-heading_padding {
+  margin-top: 15px;
+}
+
+.setting__item-text {
+  margin-top: 5px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.slider {
+  margin-top: 28px;
+}
+
+.slider__bottom {
+  margin-top: 50px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.slider__heading {
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+}
+
+.slider__text {
+  margin-top: 17px;
+}
+
+.slider__btn {
+  margin-right: unset;
+  margin-bottom: unset;
+  margin-left: unset;
+  position: unset;
+  gap: 19px;
+}
+
+.slider__btn [data-bs-target] {
+  height: auto;
+  text-indent: unset;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+.slider__texture-img {
+  border-radius: 50%;
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .h2_project {
     font-size: 40px;
@@ -125,6 +229,10 @@
   .p_project {
     font-size: 24px;
     line-height: 28px;
+  }
+  .center {
+    padding-left: calc(50% - 384px);
+    padding-right: calc(50% - 384px);
   }
   .header {
     padding-top: 54px;
