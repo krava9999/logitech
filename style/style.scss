@@ -8,7 +8,21 @@
     padding-right: 19px;
 }
 
+.h2_project {
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #2F3132;
+}
 
+.p_project {
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
 
 .header {
     display: flex;
@@ -28,6 +42,32 @@
     &__burger-ico {
         width: 30px;
         height: 15.74px;
+    }
+}
+
+.worked {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 93px;
+    padding-bottom: 48px;
+    background-color: #E0E1E2;
+
+    &__img {
+        width: 100%;
+    }
+
+    &__text {
+        margin-top: 67px;
+    }
+
+    &__arrow {
+        margin-top: 40px;
+    }
+
+    &__arrow-ico {
+        width: 39.31px;
+        height: 20px;
     }
 }
 
