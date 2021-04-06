@@ -1,0 +1,20 @@
+﻿@media (min-width: 768px) {
+
+    .header {
+        padding-top: 54px;
+
+        &__logo-img {
+            width: 240px;
+        }
+
+        &__burger {
+            right: 58px;
+        }
+
+        &__burger-ico {
+            width: 61px;
+            height: 32px;
+        }
+    }
+
+}

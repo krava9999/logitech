@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: 19px;
+    padding-right: 19px;
+}
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    background: #E0E1E2;
+    padding-top: 25px;
+
+    &__logo-img {
+        width: 130px;
+    }
+
+    &__burger {
+        position: absolute;
+        right: 28.5px;
+    }
+
+    &__burger-ico {
+        width: 30px;
+        height: 15.74px;
+    }
+}
+
+@import "w768px";
