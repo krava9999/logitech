@@ -122,17 +122,22 @@ p {
 
     &__box-item {
         display: flex;
-        gap: 6px;
         margin-top: 30px;
+
     }
 
     &__item {
-
+        max-width: 166px;
         padding-bottom: 8.5px;
-        width: 50%;
         display: flex;
+        flex-grow: 1;
         flex-direction: column;
         outline: 1px solid black;
+
+        &:first-child {
+            margin-right: 6px;
+
+        }
     }
 
     &__item-heading {
@@ -196,10 +201,109 @@ p {
         border-radius: 50%;
         width: 100%;
     }
+}
 
+.device {
+    background: #EDEDED;
+    flex-direction: column;
+    align-items: center;
+    min-height: 718px;
+    padding-top: 70px;
+    background-image: url(../img/some-device.jpg);
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    &__text {
+        margin-top: 20px;
+    }
+
+    &__order {
+        list-style-position: inside;
+        margin-top: 36px;
+    }
+
+    &__list {
+        text-align: left;
+        margin-bottom: 16px;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
 
 }
 
+.apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #EDEDED;
+    padding-top: 70px;
+    justify-content: center;
 
+    &__top {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__text {
+        margin-top: 20px;
+
+        &_bottom {
+            font-size: 14px;
+            line-height: 16px;
+            color: #FFFFFF;
+            margin-top: 20px;
+        }
+    }
+
+    &__slider-img {
+        margin-top: 35px;
+        width: 100%;
+    }
+
+    &__btn-box {
+        margin-top: 20px;
+        display: flex;
+    }
+
+    &__btn {
+        margin-right: 15px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__btn-ico {
+        width: 15px;
+        height: 15px;
+    }
+
+    &__bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #C4C4C4;
+        width: 100%;
+        margin-top: 50px;
+        padding-top: 23px;
+        padding-bottom: 26px;
+    }
+
+    &__box-ico {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__app-ico {
+        margin-right: 23px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}
 
 @import "w768px";

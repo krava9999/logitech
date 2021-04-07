@@ -10,9 +10,9 @@
     }
 
     .center {
-        padding-left: calc(50% - 384px);
-        padding-right: calc(50% - 384px);
-        ;
+        padding-left: calc(50% - 447px);
+        padding-right: calc(50% - 447px);
+
     }
 
     .header {
@@ -72,5 +72,103 @@
             }
         }
     }
+
+    .setting {
+        &__box-item:first-child {
+            margin-right: 30px;
+        }
+
+        &__item {
+            max-width: 300px;
+
+            &:first-child {
+                margin-right: 30px;
+            }
+        }
+    }
+
+    .device {
+        min-height: 1088px;
+
+        &__text {
+            margin-top: 30px;
+        }
+
+        &__order {
+            display: flex;
+            padding-left: 0;
+        }
+
+        &__list {
+            font-size: 20px;
+            line-height: 23px;
+
+            &_border {
+                border-left: 1px solid #494949;
+                border-right: 1px solid #494949;
+                margin-right: 22px;
+                margin-left: 21px;
+                padding-left: 28px;
+                padding-right: 15px;
+            }
+
+
+
+            &:last-child {
+
+                border-right: none;
+            }
+        }
+    }
+
+    .apps {
+        padding-bottom: 70px;
+
+        &__text {
+            margin-top: 30px;
+
+            &_bottom {
+                font-size: 20px;
+                line-height: 23px;
+                margin-top: 26px;
+            }
+        }
+
+        &__slider-img {
+            margin-top: 54px;
+            max-width: 497px;
+        }
+
+        &__btn-box {
+            margin-top: 53px;
+        }
+
+        &__btn {
+            margin-right: 25px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+
+        &__btn-ico {
+            width: 25px;
+            height: 25px;
+        }
+
+        &__bottom {
+            max-width: 765px;
+            margin-top: 70px;
+        }
+
+        &__app-ico {
+            margin-right: 36px;
+
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
 
 }
