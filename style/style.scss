@@ -82,6 +82,10 @@
 
     &__img {
         width: 100%;
+
+        &_width-1 {
+            display: none;
+        }
     }
 
     &__text {
@@ -261,6 +265,10 @@
         width: 100%;
     }
 
+    &__slider-img_hide {
+        display: none;
+    }
+
     &__btn-box {
         margin-top: 20px;
         display: flex;
@@ -349,3 +357,4 @@
 }
 
 @import "w768px";
+@import "w1024px";
