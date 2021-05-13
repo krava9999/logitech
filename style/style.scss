@@ -32,6 +32,7 @@
     justify-content: center;
     background: #E0E1E2;
     padding-top: 25px;
+    position: relative;
 
     &__logo-img {
         width: 130px;
@@ -46,7 +47,66 @@
         width: 30px;
         height: 15.74px;
     }
+
+    &__menu {
+        display: none;
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: absolute;
+        background: #2F3132;
+        z-index: 1;
+        padding-top: 14px;
+        padding-bottom: 208px;
+
+    }
+
+    &__menu-logo {
+        width: 130px;
+    }
+
+    &__menu-top {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    &__close-btn {
+        position: absolute;
+        right: 15px;
+        z-index: 1;
+
+        svg {
+            width: 30px;
+            height: 30px;
+        }
+    }
+
+    &__menu-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        margin-top: 148px;
+    }
+
+    &__nav-link {
+        color: #C4C4C4;
+        text-decoration: none;
+
+        &:hover {
+            color: #FFFFFF;
+            border-bottom: 2px solid #FFFFFF;
+
+        }
+    }
+
+    &__menu-hide {
+        display: none;
+    }
+
 }
+
 
 .worked {
     flex-direction: column;
@@ -164,6 +224,13 @@
 
 .slider {
     margin-top: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .carousel-inner {
+        width: auto;
+    }
 
     &__bottom {
         margin-top: 50px;

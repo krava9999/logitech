@@ -30,6 +30,39 @@
             width: 61px;
             height: 32px;
         }
+
+        &__menu {
+            padding-top: 64px;
+            padding-bottom: 141px;
+        }
+
+        &__menu-logo {
+            width: 240px;
+        }
+
+        &__close-btn {
+            right: 64px;
+
+            svg {
+                height: 61px;
+                width: 61px;
+            }
+        }
+
+        &__menu-nav {
+            gap: 59px;
+
+            &_hide {
+                display: none;
+            }
+        }
+
+        &__nav-link {
+            &hover {
+                border-bottom: 4px solid #FFFFFF;
+
+            }
+        }
     }
 
     .worked {
